@@ -14,7 +14,7 @@ import {
 } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
-// 轮播图设置
+// 轮播图style设置
 const contentStyle = {
   height: '160px',
   color: '#fff',
@@ -22,10 +22,11 @@ const contentStyle = {
   textAlign: 'center',
   background: '#364d79',
 };
-
+// layout的部分内容
 const {
   Header, Footer, Sider, Content
 } = Layout;
+
 export default class Home extends Component {
   state = { name: 'home', url: 'http://localhost:3000', current: 'mail' };
 
@@ -93,7 +94,7 @@ export default class Home extends Component {
                   <h3 style={contentStyle}>4</h3>
                 </div>
               </Carousel>
-            </div>z
+            </div>
           </Content>
           <Sider>Sider</Sider>
         </Layout>
